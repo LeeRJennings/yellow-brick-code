@@ -1,0 +1,39 @@
+body {
+    background-color: goldenrod;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+}
+
+.main-content {
+    display: flex;
+}
+
+main {
+    flex: 3;
+}
+
+aside {
+    flex: 1;
+}
+
+img {
+    width: 100%;
+}
+
+.friend-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.friend-list section {
+    max-width: 200px;
+    margin: 1em 2em
+}
